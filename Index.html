@@ -1,31 +1,60 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fooddit</title>
 </head>
+
 <body>
-  <h1><div style="text-align: center;" class="sitename"><img src="Fooddit.png" height="100px" width="100px">Fooddit<img src="Fooddit.png" height="100px" width="100px"></div></h1>
-  <p><div style="text-align: center;">Type in an ingredient and find a recipe.</div></p>
-  <form>
-      <p><div style="text-align: center;">
-          <label for="search">Ingredient:</label>
-          <input type="text" id="search" class="search" required>
-       </div></p>
-       <p><div style="text-align: center;">
-          <button class="submit">Submit search</button>
-       </div></p>
-   
-       <div class="outcome">
+  <h1>
+    <div style="text-align: center;" class="sitename"><img src="Fooddit.png" height="100px" width="100px">Fooddit<img
+        src="Fooddit.png" height="100px" width="100px"></div>
+  </h1>
  
-   </form>
- <section>
+  <p>
+    <div style="text-align: center;">Type in a food item and get a picture of typed food.</div>
+  </p> 
+  <!--Search Form-->
+  <form class="form">
+    <p>
+      <div style="text-align: center;">
+        <label for="ingredient">Food:</label>
+        <input type="text" id="search" class="search" required>
+      </div>
+    </p>
+    <p style="text-align: center;">
+      <button id="submitButton">Submit search</button>
+    </p>
+  </form>
+  <!--Results Section-->
+  <div class="card" class="myImage" id="myImage">
+
+  
+  </div>
+      <h1 class="">
+  
+      </h1> 
+      <h2 class="">
+  
+      </h2>
+  
+  <div id="myImage" class="myImage">
 
 
- </section>
- <script type="text/javascript" src="api.js"></script>
-</div>
+  </div>
+  </div>
+  
+   <!--Results From Request-->
+   <section>
+
+  </section>
+  </div>
+  <script type="text/javascript" src="api.js"></script>
 </body>
+
 </html>
